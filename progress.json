@@ -1,0 +1,108 @@
+{
+  "roadmap": "Senior Python Automation Engineer",
+  "start_date": "",
+  "target_end_date": "",
+  "current_day": 0,
+  "current_week": 0,
+  "total_days": 365,
+  "total_weeks": 52,
+  "months": {
+    "month_1": {
+      "name": "Python Foundations",
+      "status": "not_started",
+      "start_date": "",
+      "end_date": "",
+      "weeks": {
+        "week_1": {
+          "name": "Core Data Types & Control Flow",
+          "status": "not_started",
+          "days": {
+            "day_1": {
+              "topic": "Strings, int, float, bool, None",
+              "date": "",
+              "status": "not_started",
+              "tutorials_watched": [],
+              "articles_read": [],
+              "practice_completed": false,
+              "pushed_to_github": false,
+              "confidence": 0,
+              "notes": "",
+              "time_spent_minutes": 0
+            },
+            "day_2": {
+              "topic": "Lists, Tuples, Sets, Frozensets",
+              "date": "",
+              "status": "not_started",
+              "tutorials_watched": [],
+              "articles_read": [],
+              "practice_completed": false,
+              "pushed_to_github": false,
+              "confidence": 0,
+              "notes": "",
+              "time_spent_minutes": 0
+            },
+            "day_3": {
+              "topic": "Dictionaries & Collections",
+              "date": "",
+              "status": "not_started",
+              "tutorials_watched": [],
+              "articles_read": [],
+              "practice_completed": false,
+              "pushed_to_github": false,
+              "confidence": 0,
+              "notes": "",
+              "time_spent_minutes": 0
+            },
+            "day_4": {
+              "topic": "Control Flow & Pattern Matching",
+              "date": "",
+              "status": "not_started",
+              "tutorials_watched": [],
+              "articles_read": [],
+              "practice_completed": false,
+              "pushed_to_github": false,
+              "confidence": 0,
+              "notes": "",
+              "time_spent_minutes": 0
+            },
+            "day_5": {
+              "topic": "Comprehensions & Generators",
+              "date": "",
+              "status": "not_started",
+              "tutorials_watched": [],
+              "articles_read": [],
+              "practice_completed": false,
+              "pushed_to_github": false,
+              "confidence": 0,
+              "notes": "",
+              "time_spent_minutes": 0
+            },
+            "day_6": {
+              "topic": "PROJECT: Contact Book CLI",
+              "date": "",
+              "status": "not_started",
+              "project_completed": false,
+              "pushed_to_github": false,
+              "confidence": 0,
+              "notes": "",
+              "time_spent_minutes": 0
+            },
+            "day_7": {
+              "topic": "Review & Consolidation",
+              "date": "",
+              "status": "not_started",
+              "review_completed": false,
+              "notes": "",
+              "time_spent_minutes": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "projects_completed": [],
+  "github_repos": [],
+  "total_hours_spent": 0,
+  "total_tutorials_watched": 0,
+  "total_github_commits": 0
+}
