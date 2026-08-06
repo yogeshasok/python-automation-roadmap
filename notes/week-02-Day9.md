@@ -127,3 +127,32 @@ cal = lambda (a, b): a+ b
 
 cal(10,20)
 
+def power_of(num):
+    return lambda x: x ** num
+square = power_of(2) // lambda x:x ** 2
+triple = power_of(3) // lambda x:x ** 3
+
+square(5) //25
+triple(5) // 125
+
+square = map(lambda x: x ** 2, [2,3,4])
+print(list(square)) // 4,9,16
+
+## map, filter, reduce
+map -- list irukra elam values ium edhachu pannanumna use panalam (apply function to each item to iterable) map(function, iterable)
+filter -- list irukra values edhachu condition base pani filter pana (iter over all values in iterable to filter based on some condition) filter(function, iterable)
+reduce -- list irukra ela valuesium combine pana using any operation 
+my_numbers = [1,2,3,4,5]
+square all using map - [1,4,9,16,25]
+filter only even number - [2,4]
+sum of all using reduce - 15
+
+Filtering Out Falsy ValuesIf you pass None as the first argument, Python will automatically remove all "Falsy" values (like 0, False, None, empty strings "", or empty lists).
+dirty_data = [True, False, 0, 42, "", "Hello", None]
+
+clean_data = list(filter(None, dirty_data))
+In modern Python, developers often prefer List Comprehensions over filter(). They do the exact same job but are generally easier to read
+
+
+
+
