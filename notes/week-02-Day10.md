@@ -14,6 +14,24 @@ import calculator
 
 print(calculator.sum(10,20))
 
+## Packages
+is combination of multiple modules inside some specific directories and have __init__.py file inside which contains all logic that need to be run during import of the package.
+
+my_project/
+│
+└── my_package/                <-- The Package
+    ├── __init__.py            <-- Initialization file
+    ├── math_utils.py          <-- Module A
+    └── string_utils.py        <-- Module B
+
+You can access modules inside a package using the import statement in several ways:
+Dot syntax:
+  import my_package.math_utils
+From syntax (cleaner): 
+  from my_package import math_utils
+Direct function import: 
+  from my_package.math_utils import add_numbers
+
 ## name == main
 
 we use __name___ == "__main__" in order to group all codes that should be executed only when that particular python files gets executed directly. 
