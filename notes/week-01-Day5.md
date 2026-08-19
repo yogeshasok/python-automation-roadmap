@@ -11,7 +11,7 @@ Set Comprehension: Makes a set using curly braces {}, which drops duplicates. Ex
 Generator Expression: **Uses parentheses ()** to save memory by yielding items one by one. Example: (x * 2 for x in range(5))
 
 Genrator is also iterable object like list, set. we can get values by calling next() to yield it return one value when we call everytime. So whole data will not be stored in memory. 
-
+```
 def yielding_values():
   yield "hello"
   print("This is print statement")
@@ -27,3 +27,4 @@ gen_values = (num for num in range(1,10))
 
 print(next(gen_values)) //1
 print(next(gen_values)) //2
+```
